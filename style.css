@@ -107,3 +107,8 @@ table.days{min-width:0}table.days td,table.days th{vertical-align:top;white-spac
 table.days td:first-child{white-space:nowrap}
 .trip h3{margin-top:1.4rem}
 @media (max-width:640px){table.days,table.days tbody,table.days tr,table.days td{display:block;width:100%}table.days thead{display:none}table.days tr{border-bottom:1px solid var(--line);padding:6px 0}table.days td{border:0;padding:4px 8px}table.days td:nth-child(2)::before{content:"Day: ";font-weight:600}table.days td:nth-child(3)::before{content:"Evening: ";font-weight:600}}
+.blurbs{margin:.6rem 0 .8rem;padding:.5rem .8rem;background:#faf7f8;border-radius:8px}
+.blurbs summary{font-weight:600;cursor:pointer}
+.blurbs ul{margin:.4rem 0 0;padding-left:1.1rem}
+.blurbs li{margin:.35rem 0;font-style:italic}
+.blurbs cite{font-style:normal;font-size:.88em;color:#6b5a60;white-space:nowrap}
