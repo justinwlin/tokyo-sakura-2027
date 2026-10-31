@@ -103,3 +103,7 @@ tr.grp td{background:var(--pink-soft);font-weight:600;color:var(--pink);text-tra
 .glob{margin:.8rem 0;padding:.7rem .9rem;border-left:4px solid #d9627f;background:#fff5f8;border-radius:6px;font-size:.95rem}
 .glob .fine{display:block;margin-top:.35rem}
 .callout.warn{background:#fff7e6;border-color:#f0b44c}
+table.days{min-width:0}table.days td,table.days th{vertical-align:top;white-space:normal}
+table.days td:first-child{white-space:nowrap}
+.trip h3{margin-top:1.4rem}
+@media (max-width:640px){table.days,table.days tbody,table.days tr,table.days td{display:block;width:100%}table.days thead{display:none}table.days tr{border-bottom:1px solid var(--line);padding:6px 0}table.days td{border:0;padding:4px 8px}table.days td:nth-child(2)::before{content:"Day: ";font-weight:600}table.days td:nth-child(3)::before{content:"Evening: ";font-weight:600}}
